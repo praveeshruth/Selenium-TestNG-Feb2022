@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression_Suite" verbose="4" parallel="tests" thread-count="2">
+  <test  name="Test case 1">
+    <classes>
+      <class name="com.selenium.training.selenium_training.HardAssert_login"/>
+       </classes>
+      </test> <!-- Test -->
+
+ <test  name="Test case 2">
+    <classes>
+      <class name="com.selenium.training.selenium_training.SoftAssert_login"/>
+       </classes>
+
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
